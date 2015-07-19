@@ -1,0 +1,29 @@
+{
+    "name": "openssl",
+    "abstract": "A short description",
+    "description": "A long description",
+    "version": "0.0.1",
+    "maintainer": "Bear Giles <bgiles@coyotesong.com>",
+
+    "license": {
+        "PostgreSQL", "http://www.postgresql.org/about/license"
+	},
+
+    "provides": {
+        "openssl": {
+            "abstract": "A short description",
+            "file": "sql/openssl.sql",
+            "docfile": "doc/openssl.md",
+            "version": "0.0.1"
+        }
+    },
+
+    "release_status": "unstable",
+
+    "generated_by": "Bear Giles <bgiles@coyotesong.com>"
+
+    "meta-spec": {
+        "version": "1.0.0",
+        "url": "http://pgxn.org/meta/spec.txt"
+    }
+}
