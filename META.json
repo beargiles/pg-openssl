@@ -1,17 +1,15 @@
 {
     "name": "openssl",
-    "abstract": "A short description",
+    "abstract": "OpenSSL material that doesn't fit anywhere else",
     "description": "A long description",
     "version": "0.0.1",
     "maintainer": "Bear Giles <bgiles@coyotesong.com>",
 
-    "license": {
-        "PostgreSQL", "http://www.postgresql.org/about/license"
-	},
+    "license": "postgresql",
 
     "provides": {
         "openssl": {
-            "abstract": "A short description",
+            "abstract": "OpenSSL material that doesn't fit anywhere else",
             "file": "sql/openssl.sql",
             "docfile": "doc/openssl.md",
             "version": "0.0.1"
@@ -20,10 +18,15 @@
 
     "release_status": "unstable",
 
-    "generated_by": "Bear Giles <bgiles@coyotesong.com>"
+    "generated_by": "Bear Giles <bgiles@coyotesong.com>",
 
     "meta-spec": {
         "version": "1.0.0",
         "url": "http://pgxn.org/meta/spec.txt"
-    }
+    },
+    
+    "tags": [
+       "cryptography",
+       "OpenSSL"
+    ]   
 }
